@@ -1,0 +1,80 @@
+.bd{
+    margin: 0;
+}
+.nav-bar{
+    background-color: rgb(146, 146, 203);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+}
+.image{
+    height:60px;
+}
+.nav-link{
+    margin: 8px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.home-page{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    height: 80vh;
+}
+.home-left{
+    padding: 100px ;
+    font-size:larger;
+}
+.home-right{
+    padding: 100px ;
+}
+
+.container-page{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(51, 61, 69);
+    
+    
+}
+
+.titlebar{
+    margin-top: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300%;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+p{
+    color: white;
+}
+h3{
+    color:greenyellow;
+}
+
+.textbox{
+    height: 100%;
+    width: 100%;
+}
+.contact-page{
+    height:70vh;
+    padding: 30px;
+}
+
